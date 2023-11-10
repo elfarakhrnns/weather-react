@@ -1,20 +1,25 @@
-import React from "react";
-import { ThreeDots } from "react-loader-spinner";
-import Component from "./Component";
+import "./App.css";
 import Weather from "./Weather";
 
-import "./App.css";
-
-function App() {
+export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <h1>Hello World! 👋🏻</h1>
-        <Weather city="Tokyo" />
-        <Component />
-      </header>
+    <div>
+      <div className="card">
+        <div className="card-body">
+          <Weather />
+        </div>
+      </div>
+      <footer>
+        <p>
+          Open-sourced code in Github by{" "}
+          <a
+            href="https://github.com/elfarakhrnns/weather-react"
+            target="_blank"
+          >
+            Elfara K.
+          </a>
+        </p>
+      </footer>
     </div>
   );
 }
-
-export default App;

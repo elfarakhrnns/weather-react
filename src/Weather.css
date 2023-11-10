@@ -1,0 +1,36 @@
+.weather-forecast {
+  display: block;
+  margin: 0 auto;
+  opacity: 0.7;
+  text-align: center;
+}
+
+.weather-temperature img {
+  height: 60px;
+  margin-right: 0px;
+  width: 60px;
+  position: relative;
+  top: -15px;
+}
+
+.weather-temperature strong {
+  font-size: 54px;
+  font-weight: 300;
+  line-height: 2;
+}
+
+.weather-temperature .units {
+  font-size: 15px;
+  position: relative;
+  top: -32px;
+}
+
+.weather-temperature .active {
+  color: black;
+  cursor: default;
+  text-decoration: none;
+}
+
+.weather-temperature .active:hover {
+  text-decoration: none;
+}
