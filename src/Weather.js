@@ -11,9 +11,14 @@ export default function Weather(props) {
   axios.get(apiUrl).then(handleResponse);
   return (
     <div className="App">
-      <header className="app-header">
-        <h2>This is the weather</h2>
-      </header>
+      <ClipLoader
+        color={color}
+        loading={loading}
+        cssOverride={override}
+        size={150}
+        aria-label="Loading Spinner"
+        data-testid="loader"
+      />
     </div>
   );
 }
