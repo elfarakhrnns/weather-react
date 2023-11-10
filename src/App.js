@@ -15,6 +15,7 @@ export default function App() {
           <a
             href="https://github.com/elfarakhrnns/weather-react"
             target="_blank"
+            rel="noreferrer"
           >
             Elfara K.
           </a>
