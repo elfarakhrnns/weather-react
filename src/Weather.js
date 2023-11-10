@@ -12,7 +12,7 @@ export default function Weather(props) {
   return (
     <div className="App">
       <ClipLoader
-        color={color}
+        color={purple}
         loading={loading}
         cssOverride={override}
         size={150}
