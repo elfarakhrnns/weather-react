@@ -10,15 +10,8 @@ export default function Weather(props) {
 
   axios.get(apiUrl).then(handleResponse);
   return (
-    <div className="App">
-      <ClipLoader
-        color={purple}
-        loading={loading}
-        cssOverride={override}
-        size={150}
-        aria-label="Loading Spinner"
-        data-testid="loader"
-      />
+    <div>
+      <h2>This is the current weather.</h2>
     </div>
   );
 }
